@@ -1,0 +1,21 @@
+@mixin btn($color: white) {
+  display: inline-block;
+  text-decoration: none;
+  color: $cWhite;
+  border: 1px solid $color;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  padding: .9em 2.1em;;
+  transition: 0.5s;
+}
+
+@mixin sectionName {
+  text-align: center;
+  margin: 15% 0 30px;
+  color: $cMainBlue;
+  font: {
+    size: 60px;
+    weight: 600;
+  } 
+}
